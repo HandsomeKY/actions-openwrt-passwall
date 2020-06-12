@@ -11,6 +11,7 @@ svn co https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus package/luci-
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 git clone https://github.com/bin20088/luci-theme-argon-mc.git package/luci-theme-argon-mc
 git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb.git
 git clone https://github.com/schen39/luci-app-serverchan package/luci-app-serverchan
 ./scripts/feeds update -a
 ./scripts/feeds install -a
